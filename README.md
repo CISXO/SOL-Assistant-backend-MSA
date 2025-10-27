@@ -31,14 +31,16 @@
 또한, 배포 파이프라인 시각화를 통해 각 서비스가 개별 배포 그룹을 가지고 무중단 배포(Blue-Green / Rolling 방식) 를 수행함을 확인할 수 있습니다.
 이를 통해 배포 시 서비스 간 장애 격리와 안정적인 운영이 가능하도록 설계하였습니다.
 
-<img width="253" height="296" alt="스크린샷 2025-10-27 오후 6 12 08" src="https://github.com/user-attachments/assets/f339fbd5-597c-4a2b-a129-2f82e407c22c" />
+<img width="900" height="600" alt="스크린샷 2025-10-27 오후 6 12 08" src="https://github.com/user-attachments/assets/f339fbd5-597c-4a2b-a129-2f82e407c22c" />
+
 무중단 배포 과정입니다. 
 
-<img width="500" height="259" alt="스크린샷 2025-10-27 오후 6 12 47" src="https://github.com/user-attachments/assets/23c9ae43-e686-497a-ae34-ea2f4420fdb6" />
+<img width="900" height="600" alt="스크린샷 2025-10-27 오후 6 12 47" src="https://github.com/user-attachments/assets/23c9ae43-e686-497a-ae34-ea2f4420fdb6" />
 
 운영중 배포 약 60건을 통해 MSA 환경에서도 각 모듈별로 격리된 구조이기에 문제 없이 배포를 진행하며 운영했습니다.
 
 <img width="900" height="400" alt="스크린샷 2025-10-27 오후 6 07 50" src="https://github.com/user-attachments/assets/914682e8-af7c-480f-aa5a-498d8e7990bb" />
+
 Msater / Slave 구조를 활용하여 읽기 부하를 줄였습니다.
 
 
