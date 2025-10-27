@@ -33,7 +33,7 @@
 이를 통해 배포 시 서비스 간 장애 격리와 안정적인 운영이 가능하도록 설계하였습니다.
 
 ### 무중단 배포 과정 흐름
-<img width="500" height="400" alt="스크린샷 2025-10-27 오후 6 12 08" src="https://github.com/user-attachments/assets/f339fbd5-597c-4a2b-a129-2f82e407c22c" />
+<img width="400" height="400" alt="스크린샷 2025-10-27 오후 6 12 08" src="https://github.com/user-attachments/assets/f339fbd5-597c-4a2b-a129-2f82e407c22c" />
 
 
 ### 격리된 환경에서의 운영중 배포
