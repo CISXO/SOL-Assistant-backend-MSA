@@ -22,8 +22,9 @@
 ## 주요 개발 내용
 ### 아키텍처 도식도
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/1795ef93-1f9b-4a9f-9716-7855429b31f5" />
+
 본 프로젝트의 인프라는 프론트엔드 서버 1대와 백엔드 서버 3대로 구성되어 있습니다.
-백엔드 서버는 기능별 도메인에 따라 분리된 MSA(Microservices Architecture) 구조로, 각 서비스가 독립적으로 배포되고 운영될 수 있습니다.
+백엔드 서버는 기능별 도메인에 따라 분리된 MSA(Microservices Architecture) 구조로, 각 서비스는 해당하는 브랜치에 push가 이루어지면 해당하는 모듈만 무중단 배포가 이루어집니다. 각 서비스가 독립적으로 배포되고 운영될 수 있습니다.
 
 ### 모듈 분리와 트래픽 흐름
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/0aec6fb6-add1-4955-a20d-7188239759a5" />
@@ -32,9 +33,8 @@
 이를 통해 배포 시 서비스 간 장애 격리와 안정적인 운영이 가능하도록 설계하였습니다.
 
 ### 무중단 배포 과정 흐름
-<img width="700" height="600" alt="스크린샷 2025-10-27 오후 6 12 08" src="https://github.com/user-attachments/assets/f339fbd5-597c-4a2b-a129-2f82e407c22c" />
+<img width="500" height="400" alt="스크린샷 2025-10-27 오후 6 12 08" src="https://github.com/user-attachments/assets/f339fbd5-597c-4a2b-a129-2f82e407c22c" />
 
-무중단 배포 과정입니다. 
 
 ### 격리된 환경에서의 운영중 배포
 <img width="900" height="600" alt="스크린샷 2025-10-27 오후 6 12 47" src="https://github.com/user-attachments/assets/23c9ae43-e686-497a-ae34-ea2f4420fdb6" />
