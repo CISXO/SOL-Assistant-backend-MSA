@@ -132,6 +132,6 @@ fornt에서 별도의 전송 큐를 통해 이벤트를 처리하는 sendBeacon 
 
 
 ### 시연영상
-https://github.com/user-attachments/assets/13f8886d-d4c7-4d6e-85a2-743cd55d15cc
+[https://github.com/user-attachments/assets/13f8886d-d4c7-4d6e-85a2-743cd55d15cc](https://github-production-user-asset-6210df.s3.amazonaws.com/99077276/505904997-13f8886d-d4c7-4d6e-85a2-743cd55d15cc.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251027T093134Z&X-Amz-Expires=300&X-Amz-Signature=4ae4cc795019b47b3961e2612fa281fecff695be5138099d41a0d024d9851b2a&X-Amz-SignedHeaders=host)
 
 
