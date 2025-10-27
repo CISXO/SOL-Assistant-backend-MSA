@@ -88,4 +88,7 @@
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/48f4d00b-30d9-4126-a06b-cf6cf838e16a" />
 
 
+### 시연영상
+https://github.com/user-attachments/assets/13f8886d-d4c7-4d6e-85a2-743cd55d15cc
+
 
