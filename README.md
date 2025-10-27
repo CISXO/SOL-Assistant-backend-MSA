@@ -82,6 +82,23 @@ Msater / Slave 구조를 활용하여 읽기 부하를 줄였습니다.
 <img src="https://img.shields.io/badge/Apache Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
 </div>
 
+## 이슈 해결
+### 대용량 데이터 처리
+<img width="900" height="600" alt="스크린샷 2025-10-27 오후 6 33 56" src="https://github.com/user-attachments/assets/f1eeb5c9-9a54-4625-b7eb-84a6e29a43fa" />
+
+고수 데이터 추출 -> 스케줄링
+고수 데이터 기반 고수별 관심 종목 추출 -> 스케줄링
+
+두번의 스케줄링 반정규화를 활용하여 실행 시간 개선
+
+### 대용량 행동 데이터 기록 처리
+<img width="900" height="600" alt="스크린샷 2025-10-27 오후 6 36 17" src="https://github.com/user-attachments/assets/119cda47-6640-4f1f-9c26-6f15000ed138" />
+
+fornt에서 별도의 전송 큐를 통해 이벤트를 처리하는 sendBeacon 사용하여 로그 파일 전송
+<img width="900" height="600" alt="스크린샷 2025-10-27 오후 6 36 27" src="https://github.com/user-attachments/assets/2a4b81cb-78b9-4cd7-8b4b-aedc6296f2dc" />
+백엔드에서는 모아진 데이터를 레디스 버퍼에 저장함 -> 주기적으로 60초마다 kafka pub 비동기 전송 -> kafka consumer는 kafka 토픽을 구독하고, 메시지를 즉시 소비. DB 일괄 저장
+행동 데이터에서 고수는 10분마다 업데이트하여 처리 시간 개선
+
 ## 메인 기능
 ### 1. 내 종목 모아보기
 
